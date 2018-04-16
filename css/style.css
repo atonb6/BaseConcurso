@@ -1,15 +1,5 @@
 .body{
 
-  display: block;
-  margin: auto;
-  width: 100%;
-  height: auto;
-  background-color: #555;
-  background-image: url("http://agroplanet.cl/wp-content/uploads/2018/04/20160107_163551.jpg");
-  background-size: cover;
-  background-position: 50% 50%;
-  background-blend-mode: multiply;
-
 }
 .header{
    width: auto;
@@ -24,21 +14,24 @@
 }
 
 .logo{
-  width: 100px;
-  margin-left: 1em;
+  margin-left: 3em;
+}
+
+.derco {
+  width: 7em;
 }
 
 .cuerpo{
+
     display: block;
     margin: auto;
     width: 100%;
     height: auto;
     background-color: #555;
-    background-image: url("img/fondo.png");
     background-size: cover;
     background-position: 50% 50%;
     background-blend-mode: multiply;
-
+    background-image: url("../img/fondo.png");
     /* esto es flex */
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -49,34 +42,79 @@
     /* fin de flex */
 }
 .img{
-  height: auto; 
+  height: auto;
 }
 .form{
-  display: block;
+    display: block;
     padding: 15px;
-    margin-left: 15%;
+    margin:auto;;
     margin-bottom: 50px;
     color: white;
-    width: 100%;
     max-width: 350px;
     height: auto;
-    min-height: 200px;
-    margin-top: 80px;
-    /*background-color: rgba(255, 255, 255, 0.2);*/
-    float: left;
+    min-height: 20em;
+    margin-top: 1em;
+    background-color: rgba(255, 255, 255, 0.2);
+    /*float: left;*/
     align-self: flex-start;
 }
 
 .titulo{
-  color: white;
-}
+  padding-top: 3em;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.65);
+  text-transform: uppercase;
+  font-family: 'bold';
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  line-height: 1.42857143;
 
+}
+.bajada{
+  margin: auto;
+  color: rgba(255, 255, 255, 0.65);
+  text-transform: uppercase;
+  font-family: 'bold';
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.42857143;
+  margin-bottom: 5em;
+}
 .linea{
   height: 5px;
   background: #B20C27;
 }
 .footer {
+  /* esto es flex */
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  /* fin de flex */
     height: 3em;
     width: auto;
     background: #2B303D;
+}
+
+.lfooter{
+ margin-top: 6px;
+  align-self: flex-start;
+}
+.social
+{
+   margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+}
+.copy{
+  color: rgba(255, 255, 255, 0.65);
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  margin: auto;
+  align-self: flex-end;
 }
