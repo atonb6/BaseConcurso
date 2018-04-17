@@ -1,11 +1,22 @@
-.body{
-
+body{
+  background-color: #2B303D;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal !important;
+  font-style: normal;
 }
 .header{
    width: auto;
    margin: Auto;
    height: 5em;
    background: #B20C27;
+   /* esto es flex */
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   /* fin de flex */
 }
 
 .cuerpo {
@@ -106,10 +117,41 @@
 }
 .social
 {
-   margin-top: 6px;
+  margin-top: 6px;
   display: flex;
   flex-direction: row;
 }
+.facebook{
+  margin-right: 3px;
+    margin-left: 3px;
+    width:30px;
+}
+
+.facebook img{
+  width:100%;
+  height: auto;
+}
+
+.Twitter{
+  margin-right: 3px;
+    margin-left: 3px;
+    width:30px;
+}
+.Twitter img{
+  width:100%;
+  height: auto;
+}
+
+.Youtube{
+  margin-right: 3px;
+    margin-left: 3px;
+    width:30px;
+}
+.Youtube img{
+  width:100%;
+  height: auto;
+}
+
 .copy{
   color: rgba(255, 255, 255, 0.65);
   text-transform: uppercase;
@@ -117,4 +159,8 @@
   font-size: 10px;
   margin: auto;
   align-self: flex-end;
+}
+
+.dercocel{
+  display:none;
 }

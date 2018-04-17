@@ -1,0 +1,60 @@
+/* iPhone 5 (portrait) ----------- */
+@media (max-width: 480px){
+
+.dercocel{
+  display: block;
+  /* margin: auto; */
+  max-width: 12em;
+margin: 0;
+padding: 1em;
+}
+  .logo{
+
+  }
+.titulo{
+  padding: -top: 1em;
+}
+.header{
+  height: auto;
+}
+
+.derco{
+  display: none;
+}
+
+.dercofoot{
+
+  max-width: 6em;
+  margin-top: 8px;
+}
+
+.copy{
+  font-size: 7px;
+    padding: 1em;
+    text-align: justify;
+
+}
+
+.social{
+  padding-top: 10px;
+
+}
+
+.facebook img{
+  width:70%;
+  height: auto;
+}
+
+.Twitter img{
+  width:70%;
+  height: auto;
+}
+.Youtube img{
+  width:70%;
+  height: auto;
+}
+
+.linea{
+  height: 1px;
+}
+}
